@@ -1,0 +1,75 @@
+html, body
+{ 
+    min-height: 100vh;
+    overflow: auto;
+    margin: 0px;
+    padding: 0px;
+    background-color: aliceblue;
+}
+.main
+{   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color:white;
+    height: 100vh;
+    padding: 30px;
+}
+#flexMobileDetailsChild
+{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    height: 100%;
+}
+section
+{
+    box-shadow: rgba(44, 47, 205, 0.35) 0px 5px 15px;
+    padding: 30px;
+    
+}
+.ChildPhoto
+{
+    width: 25%;
+}
+.crossImage img
+{
+    width: 80%;
+}
+
+.crossImage
+{   
+    margin-left: 50px;;
+}
+
+/* Mobile Section Css start from here */
+.phoneSection
+{
+    
+}
+
+.buttonMargin
+{
+    margin: 5px;
+}
+#resizeForm
+{
+    width: 20%;
+}
+
+/* phone case Css start from here */
+
+.phoneCaseSection
+{
+   
+}
+
+/* Total Bill section css start from here */
+
+#text-align
+{
+    text-align:end;
+}
+
+
+
